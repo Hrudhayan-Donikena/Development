@@ -1,0 +1,55 @@
+a{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.back-button,
+.next-button{
+    padding: 5px;
+}
+
+.stretch-button{
+    background-color: green;
+    color: white;
+    font-size: medium;
+    border-style: none;
+    padding: 8px 15px;
+    cursor: pointer;
+    transition: padding 0.35s;
+}
+.stretch-button:hover{
+    padding: 13px 35px;
+}
+
+.shadow-button{
+    background-color: green;
+    color: white;
+    font-size: medium;
+    border-style: none;
+    padding: 8px 15px;
+    cursor: pointer;
+    /* transition: margin-top 0.15s,
+    margin-left 0.15s; */
+}
+.shadow-button:active{
+    margin-top: 2px;
+    margin-left: 2px;
+}
+
+.one-button,
+.two-button,
+.three-button{
+    background-color: green;
+    color: white;
+    border-style: none;
+    font-size: medium;
+    padding: 5px 10px;
+    margin: 0px 10px 0px 10px;
+    cursor: pointer;
+    transition: margin 0.20s padding 0.20s;
+}
+.one-button:hover,
+.two-button:hover,
+.three-button:hover {
+    margin: 0px 2px 0px 2px;
+    padding: 5px 18px 5px 18px;
+}

@@ -1,0 +1,49 @@
+p{
+    font-family: Arial;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.title{
+    font-weight: bold;
+    font-size: 18px;
+    width: 280px;
+    line-height: 1.3;
+    margin-bottom: 5px;
+}
+.stats{
+    font-size: 14px;
+    color: rgb(96, 96, 96);
+    margin-bottom: 15px;
+}
+.author{
+    color: rgb(96, 96, 96);
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+.content{
+    color: rgb(96, 96, 96);
+    font-size: 14px;
+    width: 280px;
+    margin-bottom: 70px;
+}
+.apple-logo{
+    font-size: 28px;
+    color: rgb(133, 132, 132);
+    margin-bottom: 10px;
+}
+.apple-info{
+    color: rgb(96, 96, 96);
+    font-size: 14px;
+    text-align: center;
+    background-color: rgb(227, 65, 64);
+    color: white;
+    padding: 18px 5px;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}

@@ -1,0 +1,90 @@
+p{
+    font-family: arial;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.new{
+    color: rgb(237, 108, 3);
+    font-size: 14px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.mac-series{
+    font-weight: bold;
+    font-size: 24px;
+    color: rgb(66, 66, 66);
+    margin-bottom: 5px;
+    text-align: center;
+}
+.promo{
+    font-weight: bolder;
+    font-size: 45px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.price{
+    margin-bottom: 15px;
+    color: gray;
+    text-align: center;
+}
+button{
+    display: block;
+    margin: 0 auto;
+    color: white;
+    background-color: rgb(63, 121, 247);
+    font-weight: bold;
+    border-style: none;
+    padding: 8px 15px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.deci{
+    font-size: 2.5rem;
+    margin-bottom: 12px;
+}
+.usd{
+    color: grey;
+    font-size: 1.35rem;
+}
+.stats{
+    color: green;
+    font-size: 1.25rem;
+    margin-bottom: 12px;
+}
+.hours{
+    font-size: 1.25rem;
+    color: grey;
+}
+.hours-stats{
+    color: rgb(198, 70, 70);
+}
+
+.channel-name{
+    margin-bottom: 8px;
+    width: 650px;
+    font-size: 1.3rem;
+}
+.channel-link{
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+.mail{
+    font-weight: lighter;
+    color: grey;
+}
+.description{
+    font-size: 1.3rem;
+    width: 650px;
+    margin-bottom: 25px;
+}
+.skills{
+    font-size: 1.3rem;
+    width: 650px;
+}
+.chp-it{
+    color: rgb(29, 155, 240);
+    text-decoration: none;
+}

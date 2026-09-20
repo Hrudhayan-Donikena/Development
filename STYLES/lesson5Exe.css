@@ -1,0 +1,66 @@
+p{
+    font-family: verdana;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.course-title{
+    font-weight: bold;
+    margin-bottom: 2px;
+    font-size: 16px;
+}
+
+.course-obj{
+    columns: grey;
+    font-size: 14px;
+    margin-bottom: 17px;
+}
+
+.course-des{
+    font-size: 14px;
+    width: 250px;
+    margin-bottom: 13px;
+}
+
+button{
+    border-style: none;
+    background-color: green;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 100px;
+}
+button:active{
+    margin-top: 2px;
+    margin-left: 2px;
+}
+
+
+.bus-ad{
+    font-family: arial;
+    font-weight: bold;
+    font-size: 33px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.apple-prom{
+    font-family: arial;
+    text-align: center;
+    font-size: 19px;
+    margin-bottom: 20px;
+}
+a{
+    color: rgb(3, 108, 184);
+    text-decoration: none;
+    cursor: pointer;
+}
+a:hover{
+    text-decoration: underline;
+}
+.learn-more{
+    font-family: arial;
+    text-align: center;
+    font-size: 19px;
+    
+}
