@@ -1,0 +1,47 @@
+body{
+    font-family: arial;
+}
+.mail{
+    display: block;
+    width: 300px;
+    font-size: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 17px 10px 17px 17px;
+    border-radius: 8px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(199, 198, 198);
+}
+.fn,
+.ln{
+    font-size: 15px;
+    padding: 17px 10px 17px 17px;
+    border: 1px solid rgb(199, 198, 198);
+    border-radius: 8px;
+    width: 133px;
+}
+.mail::placeholder,
+.fn::placeholder,
+.ln::placeholder{
+    color: grey;
+    font-size: 18px;
+}
+button{
+    background-color: rgb(82, 130, 242);
+    color: white;
+    font-weight: bold;
+    border-style: none;
+    padding: 17px 127px;
+    font-size: 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: box-shadow 0.35s, 
+    font-size 0.2s;
+}
+button:hover{
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+}
+button:active{
+    font-size: 17px;
+}
