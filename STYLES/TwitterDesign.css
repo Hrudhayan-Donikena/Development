@@ -1,0 +1,57 @@
+p{
+    font-family: arial;
+    margin: 0;
+}
+.img-div{
+    margin-right: 10px;
+}
+img{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    object-fit: cover;
+}
+.container-1{
+    display: flex;
+    margin-bottom: 10px;
+}
+.title-div{
+    width: 350px;
+}
+.username{
+    margin-bottom: 3px;
+}
+.title{
+    line-height: 20px;
+}
+span{
+    color: grey;
+}
+.yt-link{
+    color: grey;
+}
+.container-2{
+    display: flex;
+    border: solid 1px rgb(209, 209, 209);
+    width: 345px;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-left: 60px;
+}
+.empty{
+    width: 100px;
+    background-color: rgb(209, 209, 209);
+}
+.title-2{
+    width: 220px;
+    line-height: 22px;
+    margin-top: 3px;
+}
+.container-3{
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.the-big-d{
+    display: inline-block;
+}

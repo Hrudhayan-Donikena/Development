@@ -1,0 +1,50 @@
+img{
+    height: 250px;
+}
+.container{
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.discount{
+    background-color: black;
+    color: white;
+    font-family: arial;
+    padding: 8px 12px;
+
+    position: absolute;
+    top: 10px;
+    right: 0;
+}
+button{
+    background-color: white;
+    border: 2px solid black;
+    padding: 8px 12px;
+    font-family: arial;
+    font-weight: 500;
+    font-size: 15px;
+    cursor: pointer;
+}
+.butt-container{
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.7);
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 90px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-shrink: 0;
+}
+.wrapper{
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    column-gap: 15px;
+    row-gap: 15px;
+}
