@@ -1,0 +1,49 @@
+.sidebar{
+    width: 72px;
+    position: fixed;
+    top: 55px;
+    bottom: 0;
+    left: 0;
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-right-color: rgb(223, 223, 223);
+    background-color: white;
+
+    z-index: 200;
+    padding-top: 5px;
+}
+.home,
+.explore,
+.subscriptions,
+.originals,
+.yt-music,
+.library{
+    height: 24px;
+}
+.home-div,
+.explore-div,
+.subscriptions-div,
+.originals-div,
+.yt-music-div,
+.library-div{
+   height: 75px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   cursor: pointer;
+   transition: background-color 0.15s;
+}
+.home-div:hover,
+.explore-div:hover,
+.subscriptions-div:hover,
+.originals-div:hover,
+.yt-music-div:hover,
+.library-div:hover{
+   background-color: rgb(238, 236, 236);
+}
+.s-name{
+    font-size: 10px;
+    margin-top: 5px;
+}
+
